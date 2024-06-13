@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "popins",sans-serif;      
+}
+.mainbox {
+        background: url("photography.jpeg");
+        height:100vh;
+        background-size:cover ;
+        
+}
+.button {
+        font-size: 30px;
+        font-weight: 700;
+        color: black;
+        position: absolute;
+        left:16px;
+        line-height: 60px;
+}
+.sidebaar {
+        position: fixed;
+        left:-350px;
+        height:100vh;
+        width:300px;
+        background-color: rgba(255,255,255,0.5);
+        box-shadow: 0 0 6px rgba(255,255,255,0.5);
+}
+.sidebaar .logo {
+        position:absolute;
+        width: 100%;
+        line-height: 60px;
+        box-shadow: 0 0 4px rgba(255,255,255,0.5);
+        height: 60px;
+}
+.sidebaar .logo a {
+        position: absolute;
+        left: 20%;
+}
+.sidebaar .buttonnn {
+        font-size: 25px;
+        color: black;
+        position: absolute;
+        left:270px;
+}
+.sidebaar .menu {
+        width: 100px;
+        position: absolute;
+        top:80px;
+}
+.sidebaar .menu li {
+        margin-top: 6px;
+        padding:10px 20px;
+}
+.sidebaar .menu i,a {
+        color: black;
+        font-size: 20px;
+        text-decoration: none;
+}
+.sidebaar .socialmedia {
+        color:white;
+        opacity:0.5;
+        position: absolute;
+        left:25%;
+        bottom:20px;
+}
+#check {
+        display: none;
+}
+.sidebaar .menu li:hover {
+        box-shadow: 0 0 4px rgba(255,255,255,0.5);
+}
+.button i:hover{
+        font-size:40px;
+}
+.buttonnn i:hover{
+        font-size: 30px;
+}
+.sidebaar .socialmedia i:hover {
+        opacity: 1.5;
+        transform: scale(1.1);
+}
+#check:checked~ .sidebaar {
+        left:0;
+
+}
+
+
+
+
+
+
